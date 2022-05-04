@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+:root{
+    background-image:url("Images/desktopBackground.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: '', cursive
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 16vw 16vw 16vw 16vw;
+    grid-template-rows: 5vh 13vh 11vh 11vh;
+    justify-content: center;
+    align-content: start;
+    column-gap: 50px;
+    row-gap: 25px;
+}
+
+#header {
+    font-size: 10vh;
+    color:#fff;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    font-family:'Beau Rivage', cursive;
+}
+
+#highscore-btn {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    font-size: 5vh;
+    padding: 2vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(49, 0, 128, 0.9);
+    border-radius: 4px;
+    font-family: 'Beau Rivage', cursive;
+}
+
+#game-btn {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 5vh;
+    padding: 2vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(49, 0, 128, 0.9);
+    border-radius: 4px;
+    font-family: 'Beau Rivage', cursive;
+}
+
+#homepage-btn {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 4vh;
+    padding: 3vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(49, 0, 128, 0.9);
+    border-radius: 4px;
+    font-family: 'Beau Rivage', cursive;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(49,0,128,0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow:none;
+    transform:none;
+}
+
+.fa-crown{
+    font-size: 4vh;
+    padding: 1vh;
+    margin-left: 1vh;
+}
+
+.fa-home{
+    margin-left: 1vh;
+    font-size: 3vh;
+    color: #fff
+}

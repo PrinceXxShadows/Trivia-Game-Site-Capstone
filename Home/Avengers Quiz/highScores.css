@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 20vh 11vh 31vh 9vh 29vh;
+    justify-content: center;
+    align-content: start;
+    column-gap: 3px;
+    row-gap: 10px;
+}
+
+#finalScore {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    font-size: 9vh;
+}
+
+#highScoresList {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    font-size: 8vh;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border: solid red 3px;
+}
+
+#goHome {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    font-size: 6vh;
+    padding: 1vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border: solid red 3px;
+}
+
+.fa-home{
+    margin-left: 2vh;
+    font-size: 6vh;
+    color: #fff
+}

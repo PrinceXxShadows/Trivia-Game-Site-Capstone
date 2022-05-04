@@ -1,0 +1,97 @@
+.endContainer {
+    display: grid;
+    grid-template-columns: 19vw 19vw 19vw 19vw 19vw;
+    grid-template-rows: 15vh 15vh 23vh 15vh 15vh;
+    column-gap: 1vw;
+    row-gap: 4vh;
+}
+
+#finalScore {
+    box-sizing: border-box;
+    border: solid red 3px;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 13vh;
+    color:#fff;
+    grid-row-start: 2;
+    grid-column: 3/4;
+    text-align: center;
+}
+
+.end-form-container {
+    background-color: rgba(0,0,0,0.8);
+    padding: 1vh;
+    grid-row-start: 3;
+    grid-column: 2/5;
+    text-align: center;
+    border: solid red 3px;
+}
+
+#end-text{
+    font-size: 3.5vh;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+input {
+    border: none;
+    box-shadow: 0 0.1vh 1.4vh 0 rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 3vh;
+    color: #000
+}
+
+input::placeholder{
+    color:#aaa;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#username{
+    width:100%;
+    margin-bottom: 2vh;
+}
+
+#saveScoreBtn {
+    margin-top: 1vh;
+    font-size: 4vh;
+    padding: .5vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border: solid red 3px;
+}
+
+#playAgain {
+    grid-row-start: 4;
+    grid-column: 2/3;
+    font-size: 4vh;
+    padding: 5vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border: solid red 3px;
+}
+
+#goHome {
+    grid-row-start: 4;
+    grid-column: 4/5;
+    font-size: 4vh;
+    padding: 5vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border: solid red 3px;
+}
+
+.fa-home{
+    margin-left: 1vh;
+    font-size: 4vh;
+    color: #fff
+}

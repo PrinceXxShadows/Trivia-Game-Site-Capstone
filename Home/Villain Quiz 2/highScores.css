@@ -1,0 +1,48 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-rows: 5vh 10vh 29vh 9vh;
+    justify-content: center;
+    align-content: start;
+    column-gap: 50px;
+    row-gap: 25px;
+}
+
+#finalScore {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+#highScoresList {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 6.8vh;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    background: rgba(49, 0, 128, 0.9);
+    border-radius: 4px;
+}
+
+#goHome {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 6vh;
+    padding: 1vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(49, 0, 128, 0.9);
+    border-radius: 4px;
+}
+
+.fa-home{
+    margin-left: 2vh;
+    font-size: 4vh;
+    color: #fff;
+}

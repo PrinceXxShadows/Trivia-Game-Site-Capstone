@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    background-image:url("Images/marvelBackground.jpeg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 13vw 13vw 13vw 13vw 13vw 13vw 13vw;
+    grid-template-rows: 1vh 11vh 11vh 15vh;
+    column-gap: 1.5vw;
+    row-gap: 18vh;
+}
+
+#header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.9);
+    font-size: 9vh;
+    color:#fff;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    text-align: center;
+    border: solid black 3px;
+}
+
+#game-btn {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 5vh;
+    padding: 2.5vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border: solid red 3px;
+}
+
+#highscore-btn {
+    grid-row-start: 3;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    font-size: 5vh;
+    padding: 2.5vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border: solid red 3px;
+}
+
+
+#homepage-btn {
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: 4vh;
+    padding-top: 5vh;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    border: solid red 3px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow:none;
+    transform:none;
+}
+
+.fa-crown{
+    font-size: 4vh;
+    padding: 1vh;
+    margin-left: 1vh;
+}
+
+.fa-home{
+    margin-left: 1vh;
+    font-size: 3vh;
+    color: #fff
+}
