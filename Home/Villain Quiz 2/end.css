@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 
 
 .endContainer {
     display: grid;
     grid-template-columns: 13vw 13vw 13vw 13vw;
-    grid-template-rows: 1vh 13vh 16vh 7vh;
+    grid-template-rows: 10vh 17vh 30vh 7vh;
     justify-content: center;
     align-content: center;
     column-gap: 20px;

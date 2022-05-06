@@ -20,15 +20,6 @@ let questions = [
         answer: 2,
     },
     {
-        question:
-            `In the Incredible Hulk, Mr. Blue is actually... `,
-        choice1: `Dr. Samuel Sterns`,
-        choice2: `Anton Vanko`,
-        choice3: `Dr. Ho Yinsen`,
-        choice4: `William Ginter Riva`,
-        answer: 1,
-    },
-    {
         question: `Who or what is slowly poisoning Tony Stark in Iron Man 2?`,
         choice1: `Pepper Potts`,
         choice2: `The metal of his suit`,
@@ -101,14 +92,6 @@ let questions = [
         answer: 3,
     },
     {
-        question: `Who's house and safe does Scott Lang break into in Antman?`,
-        choice1: `Hank Pym`,
-        choice2: `Thaddeus Ross`,
-        choice3: `Trevor Slattery`,
-        choice4: `Wilson Fisk`,
-        answer: 1,
-    },
-    {
         question: `What divides the Avengers in Captain America: Civil War?`,
         choice1: `The Underage Superhuman Welfare Act`,
         choice2: `The Sokovia Accords`,
@@ -165,14 +148,6 @@ let questions = [
         answer: 1,
     },
     {
-        question: `who is the "ghost" that escapes with Pym's lab in Ant-Man and the Wasp?`,
-        choice1: `Ava Starr`,
-        choice2: `Sprite`,
-        choice3: `Karl Mordo`,
-        choice4: `Brock Rumlow`,
-        answer: 1,
-    },
-    {
         question: `Who blinds Nick Fury in Captain Marvel?`,
         choice1: `Goose`,
         choice2: `Ronan`,
@@ -199,7 +174,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 23
+const MAX_QUESTIONS = 20
 
 startGame = () => {
     questionCounter = 0

@@ -29,6 +29,7 @@
     padding: 0;
     background-color: rgba(255, 0, 0, 0.9);
     font-size: 9vh;
+    align-items: center;
     color:#fff;
     grid-row-start: 2;
     grid-column-start: 3;

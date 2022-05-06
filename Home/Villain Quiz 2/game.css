@@ -2,6 +2,15 @@ body{
     color:#fff;
 }
 
+.hud-item{
+    background-color: rgba(0,0,0,0.5);
+    padding: 1.5rem;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 #question{
     font-size: 4.5rem;
     background-color: rgba(0,0,0,0.5);
@@ -59,13 +68,12 @@ body{
 .hud-prefix{
     text-align:center;
     font-size:3rem;
-    margin-right: 2.5vw;
-    margin-left: 1rem;
 }
 
 .hud-main-text{
     text-align:center;
     font-size: 3rem;
+    margin-top: 2rem;
 }
 
 #progressBar{
@@ -74,10 +82,9 @@ body{
    height:3rem;
    border: 0.2rem solid rgb(49,0,128);
    margin-top:2rem;
-   margin-bottom: 2rem;
    border-radius:50px;
    overflow: hidden;
-   margin-left: 2.5vw;
+   padding: 1rem;
 }
 
 #progressBarFull{
